@@ -1,0 +1,7 @@
+<?php
+function weather_page_preprocess_page(&$variables) {
+  $current_path = \Drupal::service('path.current')->getPath();
+  $path_args = explode('/', $current_path);
+    if($path_args[1]=='weather')
+      $variables['#attached']['library'][] =  'weather_page/weather_page_css';
+}

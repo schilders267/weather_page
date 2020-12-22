@@ -1,0 +1,4 @@
+weather_page_css:
+  css:
+    theme:
+      css/weather-page.css: { }

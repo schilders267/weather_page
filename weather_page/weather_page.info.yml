@@ -1,0 +1,6 @@
+name: 'Weather Page Module'
+type: module
+description: 'Create a page and echo the temperature'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Custom'
